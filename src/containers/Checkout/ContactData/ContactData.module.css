@@ -1,0 +1,19 @@
+.ContactData{
+    margin: 40px 0px 30px 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    text-align: center;
+}
+
+.ContactData h4, .ContactData h2{
+    font-family: var(--font-title);
+    color: var(--darkGreen);
+    margin-bottom: 30px;
+}
+
+.ContactData label{
+    color: #fff;
+}

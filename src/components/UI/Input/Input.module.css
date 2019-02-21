@@ -1,0 +1,22 @@
+.Input{
+    padding: 4px 8px;
+    margin-bottom: 10px;
+
+    border-radius: 10px;
+    border: 2px ridge #fff;
+    background: var(--cream);
+
+    font-family: var(--font-pixel);
+    font-size: 0.7rem;
+    line-height: 20px;
+}
+
+.Invalid{
+    border: 2px ridge red;
+    background: var(--pink);
+}
+
+.Error{
+    font-size: 0.7rem;
+    color: red;
+}

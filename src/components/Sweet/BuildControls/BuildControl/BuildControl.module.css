@@ -1,0 +1,94 @@
+.BuildControl{
+    display: flex;
+    flex-direction: row;
+
+    margin: 10px 0px;
+    justify-content: center;
+}
+
+.Label{
+    font-family: var(--font-title);
+    color: var(--rose);
+    letter-spacing: 0.15rem;
+
+    min-width: 155px;
+    margin: 0px 10px;
+}
+
+.Less{
+    margin-right: 10px;
+    color: var(--rose);
+}
+
+.BuildControl button{
+    font-size: 0.8rem;
+
+    background: var(--peach);
+    border-radius: 5px;
+    border: 1px groove #fff;
+    padding: 5px 15px;
+}
+
+.More{
+    color: var(--darkGreen);
+}
+
+.BuildControl button:disabled{
+    background: rgb(172, 172, 172);
+    border: none;
+    color: lightgray;
+}
+
+@media screen and (max-width: 465px){
+    .BuildControl{
+        display: flex;
+        flex-direction: column;
+
+        margin: 20px 0px;
+    }
+
+    .Options{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Options button{
+        margin: 5px 20px;
+        flex: 1;
+    }
+}
+
+/* .BuildControl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 10px 0px;
+}
+
+.Label{
+    font-family: var(--font-title);
+    color: #fff;
+    letter-spacing: 0.15rem;
+    margin-right: 10px;
+}
+
+.Less{
+    margin-right: 10px;
+}
+
+.BuildControl button{
+    font-size: 0.9rem;
+    color: var(--darkGreen);
+
+    background: var(--peach);
+    border-radius: 5px;
+    border: 1px groove #fff;
+    padding: 5px 15px;
+}
+
+.BuildControl button:disabled{
+    background: rgb(150, 145, 145);
+    border: none;
+    color: lightgray;
+} */

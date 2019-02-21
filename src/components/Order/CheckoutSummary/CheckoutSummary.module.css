@@ -1,0 +1,33 @@
+.CheckoutSummary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Final{
+    margin-top: 30px;
+}
+
+.Summary{
+    width: 70%;
+    max-width: 500px;
+    margin: auto;
+    
+    border-radius: 8px;
+    border: 2px groove #fff;
+
+    padding: 30px;
+
+    background: var(--pink);
+
+    text-align: center;
+}
+
+.CheckoutSummary h1{
+    font-size: 1.6rem;
+    font-family: var(--font-title);
+    color: #fff;
+    letter-spacing: 0.12rem;
+
+    margin-bottom: 20px;
+}

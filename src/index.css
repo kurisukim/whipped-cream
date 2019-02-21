@@ -1,14 +1,30 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root{
+  --font-title: 'Pacifico', sans-serif;
+  --font-pixel: 'pixel', sans-serif;
+  --green: #B6E2D3;
+  --darkGreen: #86BAA8;
+  --pink: #FFC2C7;
+  --rose: #d3898f;
+  --peach:#FBDFA0;
+  --cream: #FAE8E0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+@font-face{
+  font-family: 'pixel';
+  src: url('assets/font/SFPixelate.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'pixel', sans-serif;
+}
+
+*:focus {
+  outline: none;
+}
+
+body{
+  background: var(--green);
 }

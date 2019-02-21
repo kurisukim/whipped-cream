@@ -1,0 +1,126 @@
+.BuildControls{
+    width: 70%;
+    max-width: 500px;
+    
+    border-radius: 8px;
+    border: 2px groove #fff;
+
+    padding: 30px;
+
+    background: var(--pink);
+
+    text-align: center;
+}
+
+.Title{
+    font-family: var(--font-title);
+    letter-spacing: 0.15rem;
+    font-size: 1.3rem;
+    color: #fff;
+
+    margin-bottom: 30px;
+}
+
+hr{
+    margin-top: 25px;
+}
+
+.OrderButton{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--darkGreen);
+
+    background: var(--peach);
+    border-radius: 5px;
+    border: 1px groove #fff;
+    padding: 8px 0px;
+
+    width: 50%;
+}
+
+.OrderButton:disabled{
+    background: rgb(172, 172, 172);
+    border: none;
+    color: lightgray;
+}
+
+.OrderButton:not(:disabled) {
+    animation: enable 0.3s linear;
+}
+
+@keyframes enable {
+    0% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+} 
+
+/* .BuildControls{
+    margin-top: 40px;
+    padding: 30px 0px;
+    width: 80%;
+    max-width: 500px;
+    
+    background: var(--pink);
+    border-radius: 8px;
+    border: 2px groove #fff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Title{
+    font-family: var(--font-title);
+    letter-spacing: 0.15rem;
+    font-size: 1.3rem;
+    color: #fff;
+    border-bottom: 2px solid var(--cream);
+
+    margin: 15px 0px 30px 0px;
+}
+
+hr{
+    margin-top: 25px;
+    border: 0.5px groove #fff;
+    width: 80%;
+}
+
+.OrderButton{
+    font-size: 0.9rem;
+    color: var(--darkGreen);
+
+    background: var(--peach);
+    border-radius: 5px;
+    border: 1px groove #fff;
+    padding: 8px 0px;
+
+    width: 50%;
+}
+
+.OrderButton:disabled{
+    background: rgb(150, 145, 145);
+    border: none;
+    color: lightgray;
+}
+
+.OrderButton:not(:disabled) {
+    animation: enable 0.3s linear;
+}
+
+@keyframes enable {
+    0% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+} */

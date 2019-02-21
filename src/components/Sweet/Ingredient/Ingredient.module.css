@@ -1,0 +1,45 @@
+.Top, .Bottom, .WhippedCream, .SecretCream, .Layer{
+    background-size: contain;
+    background-repeat: no-repeat; 
+    height: 100px;
+}
+
+.WhippedCream, .SecretCream, .Layer{
+    position: absolute;
+}
+
+.Top, .Bottom{
+    position: relative;
+}
+
+.WhippedCream, .SecretCream{
+    left: 4px;
+    bottom: 3px;
+}
+
+.Top{
+    background-image: url('../../../assets/ingredients/top.png');
+    width: 160px;
+    z-index: 11;
+}
+
+.WhippedCream{
+    background-image: url('../../../assets/ingredients/whipped-cream.png');
+    width: 150px;
+}
+
+.SecretCream{
+    background-image: url('../../../assets/ingredients/patissiere-cream.png');
+    width: 150px;
+}
+
+.Layer{
+    background-image: url('../../../assets/ingredients/bottom.png');
+    width: 160px;
+}
+
+.Bottom{
+    background-image: url('../../../assets/ingredients/bottom.png');
+    width: 160px;
+    z-index: 1;
+}

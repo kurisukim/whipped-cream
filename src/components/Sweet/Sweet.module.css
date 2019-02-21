@@ -1,0 +1,96 @@
+.Sweet{
+    position: relative;
+    
+    margin: 40px 0px 40px 0px;
+
+    animation: floating 3s ease-in infinite;
+}
+
+@keyframes floating{
+    0%{
+        top: 0px;
+    }
+
+    50%{
+        top: 10px;
+    }
+
+    100%{
+        top: 0px;
+    }
+}
+
+.Start{
+    font-family: var(--font-title);
+    letter-spacing: 0.15rem;
+    font-size: 0.7rem;
+    color: var(--darkGreen);
+    text-align: center;
+    
+    animation: buzz 0.5s linear infinite;
+}
+
+@keyframes buzz{
+    0%{
+        transform: rotate(2deg);
+    }
+
+    50%{
+        transform: rotate(-2deg);
+    }
+
+    100%{
+        transform: rotate(2deg);
+    }
+}
+
+/* .Sweet{
+    width: 100%;
+    margin-top: 80px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    animation: floating 3s ease-in infinite;
+}
+
+.Start{
+    font-family: var(--font-title);
+    letter-spacing: 0.15rem;
+    font-size: 0.7rem;
+    color: var(--darkGreen);
+    text-align: center;
+    
+    margin: 20px 0px;
+    animation: buzz 0.5s linear infinite;
+}
+
+@keyframes buzz{
+    0%{
+        transform: rotate(2deg);
+    }
+
+    50%{
+        transform: rotate(-2deg);
+    }
+
+    100%{
+        transform: rotate(2deg);
+    }
+}
+
+@keyframes floating{
+    0%{
+        top: 0px;
+    }
+
+    50%{
+        top: 10px;
+    }
+
+    100%{
+        top: 0px;
+    }
+} */

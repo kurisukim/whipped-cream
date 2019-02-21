@@ -1,0 +1,73 @@
+.OrderSummary{
+    text-align: center;
+}
+
+.Total{
+    font-size: 1.4rem;
+}
+
+.Description{
+    font-size: 0.9rem;
+}
+
+h3, .Total{
+    display: inline-block;
+    margin-bottom: 20px;
+
+    font-family: var(--font-title);
+    color: #fff;
+}
+
+.Description, li{
+    color: var(--rose);
+}
+
+li, li span{
+    list-style: none;
+
+    font-family: var(--font-title);
+    font-size: 1.2rem;
+}
+
+span{
+    text-transform: capitalize;
+} 
+
+/* .OrderSummary{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Total{
+    font-size: 1.4rem;
+}
+
+h3, .Total{
+    display: inline-block;
+    margin-bottom: 20px;
+
+    font-family: var(--font-title);
+    color: #fff;
+}
+
+.Description{
+    font-size: 0.9rem;
+}
+
+.Description, li{
+    color: var(--rose);
+}
+
+li, li span{
+    list-style: none;
+
+    font-family: var(--font-title);
+    font-size: 1.2rem;
+}
+
+span{
+    text-transform: capitalize;
+} */

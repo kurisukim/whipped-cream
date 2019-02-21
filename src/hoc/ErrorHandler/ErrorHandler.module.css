@@ -1,0 +1,29 @@
+/* .ErrorHandler{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.ErrorHandler{
+    color: red;
+}
+
+.ErrorHandler{
+    color: red;
+} */
+
+.ErrorHandler{
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Error{
+    color: var(--rose);
+}

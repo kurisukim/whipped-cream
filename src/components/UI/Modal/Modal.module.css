@@ -1,0 +1,31 @@
+.Modal{
+    position: relative;
+    z-index: 50;
+
+    width: 70%;
+    max-width: 500px;
+
+    padding: 30px 15px;
+    
+    background:var(--peach);
+    border-radius: 8px;
+    border: 2px groove #fff;
+
+    text-align: center;
+}
+
+/* .Modal{
+    position: fixed;
+    z-index: 202;
+
+    width: 70%;
+    max-width: 500px;
+
+    padding: 30px 0px;
+    
+    background:var(--peach);
+    border-radius: 8px;
+    border: 2px groove #fff;
+
+    text-align: center;
+} */

@@ -1,0 +1,41 @@
+.NavigationItem{
+    font-size: 1.2rem;
+    text-align: center;
+
+    padding: 10px 0px;
+}
+
+.NavigationItem a{
+    font-family: var(--font-title);
+    letter-spacing: 3px;
+    color: var(--rose);
+    
+    transition: all 0.8s ease;
+}
+
+.NavigationItem a:hover{
+    color: var(--cream);
+    text-decoration: none;
+}
+
+/* .NavigationItem{
+    width: 70%;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.NavigationItem a{
+    color: var(--rose);
+    transition: all 0.5s ease;
+}
+
+.NavigationItem a:hover{
+    color: var(--cream);
+}
+
+.NavigationItem a, .NavigationItem a:hover{
+    font-size: 1.1rem;
+    font-family: var(--font-title);
+    letter-spacing: 3px;
+    text-decoration: none;
+} */

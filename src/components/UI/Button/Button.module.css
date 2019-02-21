@@ -1,0 +1,57 @@
+.Button{
+    font-size: 0.8rem;
+    color: #fff;
+    background: var(--peach);
+    
+    border-radius: 5px;
+    
+    width: 50%;
+    margin: 3px;
+    padding: 5px 0px;
+}
+
+.Success{
+    background: var(--green);
+}
+
+.Error{
+    background: var(--rose);
+}
+
+.Button:disabled{
+    background: rgb(150, 145, 145);
+    border: none;
+    color: lightgray;
+}
+
+@media screen and (max-width: 600px){
+    .Button{
+        width: 80%;
+    }
+}
+
+/* .Button{
+    font-size: 0.9rem;
+    color: #fff;
+    background: var(--peach);
+    
+    border-radius: 5px;
+    
+    width: 60%;
+    margin: 5px;
+    padding: 5px 0px;
+}
+
+.Success{
+    background: var(--green);
+}
+
+.Error{
+    background: var(--rose);
+}
+
+.Button:disabled{
+    background: rgb(150, 145, 145);
+    border: none;
+    color: lightgray;
+} */

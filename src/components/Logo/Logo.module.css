@@ -1,0 +1,13 @@
+/* .Logo{
+    font-family: var(--font-title);
+    text-align: center;
+    color: #fff;
+} */
+
+.Logo{
+    font-family: var(--font-title);
+    text-align: center;
+    color: #fff;
+
+    cursor: pointer;
+}
